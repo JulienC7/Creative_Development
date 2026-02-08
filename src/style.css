@@ -306,7 +306,6 @@ body {
   }
 }
 
-
 #section-serenite {
   position: relative;
   height: auto;
@@ -365,7 +364,7 @@ body {
     filter: brightness(1) saturate(1);
   }
   50% {
-    filter: brightness(1.2) saturate(1.3);
+    filter: brightness(1.5) saturate(1.6);
   }
 }
 
