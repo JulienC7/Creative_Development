@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Le Deuil</title>
+    <link rel="stylesheet" href="./src/style.css" />
+  </head>
+  <body>
+    <header class="hero-deuil">
+      <div class="overlay-hero"></div>
+
+      <nav class="nav-top">
+        <a href="#section-colere">Anger</a>
+        <a href="#section-deprime">Depressed</a>
+        <a href="#section-serenite">Serenity</a>
+      </nav>
+
+      <h1 class="titre-principal">MOURNING</h1>
+    </header>
+
+    <section id="section-colere">
+      <div class="colere-bg"></div>
+      <div class="colere-content">
+        <h2 class="titre-colere">
+          Le monde continue de tourner comme si de rien n'était. C'est ce
+          vacarme de la vie normale qui est insupportable.
+        </h2>
+        <button class="bouton-musique" data-emotion="colere">Colère</button>
+      </div>
+    </section>
+
+    <section id="section-haha">
+      <img src="./src/assets/haha.png" alt="Haha" class="haha-img" />
+    </section>
+
+    <section id="section-insulte">
+      <img src="./src/assets/insulte.png" alt="Insulte" class="insulte-img" />
+    </section>
+
+    <section id="section-deprime">
+      <button class="bouton-musique" data-emotion="deprime">Déprime</button>
+      <h2 class="titre-deprime">
+        Puis, le silence brutal. Plus de bruit, plus de rage. Juste ce vertige
+        immense qui m'aspire vers le fond. Je suis là, sans être vraiment là.
+      </h2>
+
+      <div class="deprime-images">
+        <img src="./src/assets/chute1.png" class="img-base" alt="Base" />
+        <img src="./src/assets/chute1.png" class="img-fantome" alt="Fantôme" />
+      </div>
+    </section>
+
+    <section id="section-serenite">
+      <button class="bouton-musique" data-emotion="serenite">Sérénité</button>
+      <h2 class="titre-serenite">
+        Et un jour, sans prévenir, le souffle revient. La douleur ne disparaît
+        pas, elle s'apaise. Le monde tourne toujours, mais je peux enfin tourner
+        avec lui.
+      </h2>
+      <img src="./src/assets/calme.png" class="img-serenite" alt="Calme" />
+    </section>
+
+    <div class="conteneur-retour">
+      <button class="bouton-retour" id="backToTopBtn">Retour au menu</button>
+    </div>
+
+    <audio id="audio-colere" src="./src/assets/colère.mp3"></audio>
+    <audio id="audio-deprime" src="./src/assets/déprime.mp3"></audio>
+    <audio id="audio-serenite" src="./src/assets/calme.mp3"></audio>
+  </body>
+  <script src="src/main.js"></script>
+</html>
